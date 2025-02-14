@@ -114,8 +114,8 @@ analytics:
 # Site Author
 author:
   name             : "Jieun Seong"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Student | College of Nursing | Seoul National University"
+  avatar           : "/assets/images/IMG_0613.JPG"
+  bio              : "Student in Seoul National University, College of Nursing"
   location         : "Seoul"
   email            : 
   links:
