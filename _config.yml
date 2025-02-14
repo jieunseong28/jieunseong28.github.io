@@ -115,11 +115,12 @@ analytics:
 author:
   name             : "Jieun Seong"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Student"
-  location         : #"Seoul"
-  email            : #"jieun3891@snu.ac.kr"
+  bio              : #"Student"
+  location         : "Seoul"
+  email            : "jieun3891@snu.ac.kr"
+  X: "@jieunseong_"
   links:
-    - label: #"Linkedin"
+    - label: "Linkedin"
       #icon: "fas fa-fw fa-envelope-square"
       url: "www.linkedin.com/in/jieunseong"
 
