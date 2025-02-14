@@ -119,13 +119,13 @@ author:
   location         : "Seoul"
   email            : 
   links:
-    - label: "Email"
+    - label: "Email: jieun3891@snu.ac.kr"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:jieun3891@snu.ac.kr"
-    - label: "Linkedin"
+    - label: "Linkedin: linkedin.com/in/jieunseong/"
       icon: "fas fa-fw fa-link"
       url: "https://www.linkedin.com/in/jieunseong/"
-    - label: "Twitter"
+    - label: "Twitter: x.com/jieunseong_"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://x.com/jieunseong_"
     - label: "Facebook"
