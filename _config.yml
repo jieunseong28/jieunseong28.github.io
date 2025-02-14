@@ -20,7 +20,7 @@ rtl                      : # true, false (default) # turns direction of the page
 title                    : "Jieun Seong"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Jieun Seong"
+name                     : "jieunseong28"
 description              : "Jieun Seong's website."
 url                      : "https://jieunseong28.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
