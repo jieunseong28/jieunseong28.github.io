@@ -41,3 +41,36 @@ code {
   white-space: pre-wrap; /* 코드가 넘칠 경우 자동 줄 바꿈 */
   font-size: 0.9rem; /* 코드 크기 */
 }
+
+.programmers-board {
+  margin: 20px;
+  padding: 15px;
+  background-color: #f7f7f7; /* 게시판 배경색 */
+  border-radius: 8px;
+}
+
+.programmers-board h2 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.post-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.post-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.post-item:hover {
+  background-color: #f1f1f1; /* 마우스 올릴 때 배경색 변경 */
+}
+
