@@ -21,7 +21,7 @@ body {
 h1 {
   font-size: 2.5rem; /* 제목 크기 */
   margin: 20px 0; /* 상하 여백 */
-  padding-left: 20px; /* 왼쪽 여백 */
+  padding-left: 200px; /* 왼쪽 여백 */
   text-align: left; /* 제목 왼쪽 정렬 */
 }
 
@@ -36,8 +36,8 @@ pre {
   overflow-x: auto; /* 코드가 넘칠 경우 스크롤 가능 */
   border: 1px solid #444; /* 어두운 경계선 추가 */
   text-align: left; /* 코드 텍스트 왼쪽 정렬 */
-  padding-left: 20px; /* 왼쪽 여백 추가 */
-  padding-right: 20px; /* 오른쪽 여백 추가 */
+  padding-left: 200px; /* 왼쪽 여백 추가 */
+  padding-right: 200px; /* 오른쪽 여백 추가 */
 }
 
 /* 코드 블록 내의 코드 스타일 */
