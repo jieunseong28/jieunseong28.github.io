@@ -8,13 +8,21 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-/* 전체 페이지 중앙 정렬 */
+/* 전체 페이지의 가운데 정렬 */
 body {
   font-family: 'Noto Sans KR', sans-serif;
   background-color: #fff; /* 배경색을 흰색으로 설정 */
   color: #333; /* 기본 글자색 설정 */
   margin: 0;
   padding: 0;
+  text-align: center; /* 전체 내용 가운데 정렬 */
+}
+
+/* 제목 정렬 */
+h1 {
+  text-align: center; /* 제목을 가운데 정렬 */
+  font-size: 2.5rem; /* 제목 크기 설정 */
+  margin: 20px 0; /* 제목 위아래 여백 */
 }
 
 /* 포스트 내용 가운데 정렬 */
@@ -24,7 +32,7 @@ body {
   padding: 20px;    /* 여백 */
 }
 
-/* 코드 블럭 스타일 (어두운 배경과 글자색 유지) */
+/* 코드 블록 스타일 (어두운 배경과 글자색 유지) */
 pre {
   max-width: 50%; /* 코드 블럭의 너비를 절반으로 */
   white-space: pre-wrap; /* 긴 코드 줄이 자동으로 줄 바꿈 */
@@ -37,4 +45,6 @@ pre {
   overflow-x: auto; /* 가로로 넘치는 내용은 스크롤 가능하게 */
   border: 1px solid #444; /* 어두운 경계선 추가 */
   margin: 0 auto;
+  text-align: left; /* 코드 내에서 텍스트 왼쪽 정렬 */
 }
+
