@@ -18,3 +18,22 @@ layout: archive
 </div>
 
 {% include paginator.html %}
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <!-- 구글 폰트 추가 -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- Jekyll에서 제공하는 링크들 (예: 스타일 시트) -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body>
+  <!-- 포스트 내용이 여기에 들어갑니다 -->
+  {{ content }}
+</body>
+</html>
