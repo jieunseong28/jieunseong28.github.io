@@ -29,7 +29,6 @@ h1 {
 /* 코드 블록 스타일 (제목과 같은 왼쪽 정렬) */
 pre {
   max-width: 60%; /* 코드 블록 너비를 60%로 제한 */
-  margin: auto; /* 코드 블록을 수평 중앙에 정렬 */
   color: #D3D3D3; /* 밝은 회색 텍스트 색상 */
   background-color: #2E2E2E; /* 어두운 회색 배경 */
   text-align: left; /* 코드 텍스트 왼쪽 정렬 */
@@ -42,12 +41,3 @@ code {
   white-space: pre-wrap; /* 코드가 넘칠 경우 자동 줄 바꿈 */
   font-size: 0.9rem; /* 코드 크기 */
 }
-
-/* 전체 코드 블록을 감싸는 컨테이너 */
-.code-container {
-  position: relative;
-  margin-right: 40%; /* 오른쪽에 40% 여백 추가 */
-  background-color: #f7f7f7; /* 밝은 배경 (40% 여백에 해당) */
-}
-
-
