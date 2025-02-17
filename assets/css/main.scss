@@ -35,7 +35,7 @@ h1 {
 /* 코드 블록 스타일 (어두운 배경과 글자색 유지) */
 pre {
   max-width: 80%; /* 코드 블록 너비를 80%로 제한 */
-  margin: 20px auto; /* 자동으로 좌우 정렬 */
+  margin: 20px auto; /* 좌우 자동 정렬, 상하 여백 20px */
   padding: 15px;
   background-color: #2e2e2e; /* 어두운 배경 */
   color: #f5f5f5; /* 밝은 글자색 */
@@ -43,6 +43,8 @@ pre {
   overflow-x: auto; /* 코드가 가로로 넘칠 때 스크롤 추가 */
   border: 1px solid #444; /* 어두운 경계선 추가 */
   text-align: left; /* 코드 텍스트 왼쪽 정렬 */
+  padding-left: 20px; /* 왼쪽 여백 추가 */
+  padding-right: 20px; /* 오른쪽 여백 추가 */
 }
 
 /* 코드 블록 내부 코드 스타일 */
