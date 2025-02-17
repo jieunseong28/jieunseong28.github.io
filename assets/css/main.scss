@@ -43,4 +43,11 @@ code {
   font-size: 0.9rem; /* 코드 크기 */
 }
 
+/* 전체 코드 블록을 감싸는 컨테이너 */
+.code-container {
+  position: relative;
+  margin-right: 40%; /* 오른쪽에 40% 여백 추가 */
+  background-color: #f7f7f7; /* 밝은 배경 (40% 여백에 해당) */
+}
+
 
