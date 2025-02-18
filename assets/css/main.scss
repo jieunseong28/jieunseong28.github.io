@@ -51,9 +51,15 @@ code {
   color: #333;  /* 진한 회색 */
 }
 
-/* Recent Posts 링크 색상 */
+/* Recent Posts 아래의 모든 링크 색상 변경 */
 .recent-posts a {
-  color: #666;  /* 중간 회색 */
+  color: #333;  /* 진한 회색 */
+  text-decoration: none; /* 밑줄 없애기 (선택 사항) */
+}
+
+/* 링크를 클릭 후 방문한 상태에서 색상 변경 */
+.recent-posts a:visited {
+  color: #555;  /* 방문한 링크는 조금 더 밝은 회색 */
 }
 
 /* Recent Posts 리스트 색상 */
