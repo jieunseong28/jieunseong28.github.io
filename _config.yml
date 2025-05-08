@@ -11,7 +11,7 @@ sass:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Jieun Seong"
-resume_title:                   "Intergrated Ph.D Student"
+resume_title:                   "Intergrated Ph.D. Student"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "jieun3891@snu.ac.kr"
@@ -23,7 +23,7 @@ resume_contact_address:         "742 Evergreen Terrace, Springfield"
 resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com"
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but keep it brief and concise</p>"
+resume_header_intro: "<p>Hi there! I'm a integrated Ph.D. student in Nursing Informatics at Seoul National University College of Nursing. With a background in the Neonatal Intensive Care Unit (NICU), I’m passionate about bridging clinical nursing with data, technology, and AI to improve healthcare practice. This blog is a space where I share insights on nursing informatics, clinical experiences, and my journey as a researcher. I hope to connect with others who are interested in the future of nursing and healthcare innovation. Thanks for visiting!</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
@@ -52,7 +52,7 @@ resume_social_links:
   resume_linkedin_url:          "www.linkedin.com/in/jieunseong"
   # resume_instagram_url:         "insert your Instagram URL here"
   # resume_website_url:           "http://joelglovier.com"
-  # resume_medium_url:            "https://medium.com/@jglovier"
+  resume_resume_url:            "resume.pdf"
 resume_print_social_links:      true
 
 # Design settings
