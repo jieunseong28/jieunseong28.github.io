@@ -116,7 +116,7 @@
       </section>
       <!-- end Projects -->
       {% endif %}
-      
+
       {% if site.resume_section_certificates %}
       <!-- begin Certificates -->
       <section class="content-section">
@@ -125,10 +125,10 @@
           <h2>Certificates</h2>
         </header>
 
-        {% for job in site.data.certificates %}
-        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">{{ certificates.name }}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ certificates.institution }} &bull; {{ certificates.year }}</h4>
+        {% for certificate in site.data.certificates %}
+        <div class="resume-item">
+          <h3 class="resume-item-title" itemprop="name">{{ certificate.name }}</h3>
+          <h4 class="resume-item-details" itemprop="description">{{ certificate.institution }} &bull; {{ certificate.year }}</h4>
         </div><!-- end of resume-item -->
         {% endfor %}
 
