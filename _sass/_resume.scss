@@ -145,6 +145,14 @@
     line-height: 1;
   }
 
+  .resume-item-subtitle {
+    @include sans;
+    margin: 0 0 .75rem;
+    font-size: 1.3rem;
+    letter-spacing: -.05rem;
+    line-height: 1;
+  }
+
   .resume-item-details {
     font-size: 1.125rem;
     margin: 0 0 .75rem;
