@@ -107,8 +107,7 @@
         {% for project in site.data.projects %}
         <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
           #<meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
-          <h3 class="resume-item-title" itemprop="name">{{ project.project }}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ project.duration }}</h4>
+          <h3 class="resume-item-title" itemprop="name">{{ project.project }} &bull; {{ project.duration }}</h3>
           <p class="resume-item-copy">{{ project.description }}</p>
         </div>
         {% endfor %}
@@ -127,7 +126,7 @@
 
         {% for certificate in site.data.certificates %}
         <div class="resume-item">
-          <h3 class="resume-item-title" itemprop="name">{{ certificate.name }}</h3>
+          <h4 class="resume-item-title" itemprop="name">{{ certificate.name }}</h4>
           <h4 class="resume-item-details" itemprop="description">{{ certificate.institution }} &bull; {{ certificate.year }}</h4>
         </div><!-- end of resume-item -->
         {% endfor %}
