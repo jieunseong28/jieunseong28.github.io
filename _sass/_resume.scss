@@ -147,7 +147,6 @@
   .resume-item-details {
     @include sans;
     font-size: 1.125rem;
-    margin: 0 0 .75rem;
     line-height: 1;
 
     &.award-title {
@@ -173,7 +172,6 @@
 
   .resume-item-copy { 
     @include sans_light;
-    margin: .75rem 0 0; 
   }
 }
 
