@@ -1,16 +1,12 @@
 # Skills
 # Organizational leadership
 
-- description: "Programming: C, C++, Python, R"
-- description: "Tools: EndNote, GitHub, Google Colab, Miro, Streamlit"
-- description: "Language: Korean (Native), English (Fluent; TOEIC 945, 2023; TEPS 451, 2024)"
-
-# - title: Programming
-# item: C, C++, Python, R
-# - title: Tools
-# item: EndNote, GitHub, Google Colab, Miro, Streamlit
-# - title: Language
-# item: Korean (Native), English (Fluent; TOEIC 945, 2023; TEPS 451, 2024)
+- title: Programming
+  item: C, C++, Python, R
+- title: Tools
+  item: EndNote, GitHub, Google Colab, Miro, Streamlit
+- title: Language
+  item: Korean (Native), English (Fluent; TOEIC 945, 2023; TEPS 451, 2024)
 
 # Communications strategy
 #- skill: Communications strategy
