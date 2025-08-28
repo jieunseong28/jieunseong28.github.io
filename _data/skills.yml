@@ -1,9 +1,13 @@
 # Skills
 # Organizational leadership
-- Programming: C, C++, Python, R
-  Tools: EndNote, GitHub, Google Colab, Miro, Streamlit
-  Language: Korean (Native), English (Fluent; TOEIC 945, 2023; TEPS 451, 2024)
-#  description: I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context.
+- title: Programming
+  item: C, C++, Python, R
+
+- title: Tools
+  item: EndNote, GitHub, Google Colab, Miro, Streamlit
+
+- title: Language
+  item: Korean (Native), English (Fluent; TOEIC 945, 2023; TEPS 451, 2024)
 
 # Communications strategy
 #- skill: Communications strategy
