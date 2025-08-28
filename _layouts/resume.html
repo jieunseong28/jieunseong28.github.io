@@ -115,8 +115,29 @@
 
       </section>
       <!-- end Projects -->
+
+      {% if site.resume_section_certificates %}
+      <!-- begin Certificates -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Certificates</h2>
+        </header>
+
+        {% for job in site.data.certificates %}
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name">{{ certificates.name }}</h3>
+          <h4 class="resume-item-details" itemprop="description">{{ certificates.institution }} &bull; {{ certificates.year }}</h4>
+          <p class="resume-item-copy">{{ job.summary }}</p>
+        </div><!-- end of resume-item -->
+        {% endfor %}
+
+      </section>
+      <!-- end Certificates -->
+
       {% endif %}
 
+      
       {% if site.resume_section_skills %}
       <!-- begin Skills -->
       <section class="content-section">
