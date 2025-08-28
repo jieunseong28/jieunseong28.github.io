@@ -146,7 +146,7 @@
   }
 
   .resume-item-subtitle {
-    @include sans;
+    @include sans_regular;
     margin: 0 0 .75rem;
     font-size: 1.5rem;
     letter-spacing: -.05rem;
