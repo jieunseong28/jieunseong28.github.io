@@ -106,7 +106,7 @@
 
         {% for project in site.data.projects %}
         <div class="resume-item">
-          <h4 class="resume-item-details">{{ project.project }}</h4>
+          <h4 class="resume-item-title">{{ project.project }}</h4>
           <h5 class="resume-item-details">{{ project.duration }}</h5>
           <p class="resume-item-copy">{{ project.description }}</p>
         </div>
@@ -126,7 +126,7 @@
 
         {% for certificate in site.data.certificates %}
         <div class="resume-item">
-          <h4 class="resume-item-details">{{ certificate.name }}</h4>
+          <h4 class="resume-item-title">{{ certificate.name }}</h4>
           <h5 class="resume-item-details">{{ certificate.institution }} &bull; {{ certificate.year }}</h5>
         </div><!-- end of resume-item -->
         {% endfor %}
@@ -144,7 +144,7 @@
         </header>
         {% for skill in site.data.skills %}
         <div class="resume-item">
-          <h4 class="resume-item-details">{{ skill.title }}</h4>
+          <h4 class="resume-item-title">{{ skill.title }}</h4>
           <h5 class="resume-item-details">{{ skill.item}}</h5>
         </div>
         {% endfor %}
