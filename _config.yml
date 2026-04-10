@@ -23,8 +23,7 @@ resume_contact_address:         "742 Evergreen Terrace, Springfield"
 resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com"
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p>Hi there! I'm a <strong><u>integrated Ph.D. student</u></strong> in <strong><u>Nursing Informatics</u></strong> at <strong><u>Seoul National University College of Nursing</u></strong>. With a background in the Neonatal Intensive Care Unit (NICU), I’m passionate about bridging clinical nursing with data, technology, and AI to improve healthcare practice. I’m currently working full-time as a researcher at the <strong><u>Human-Centered Artificial Intelligence Lab (HCAIL)</u></strong>. This blog is a space where I share insights on nursing informatics, clinical experiences, and my journey as a researcher. I hope to connect with others who are interested in the future of nursing and healthcare innovation. Thanks for visiting!</p>"
-
+resume_header_intro: <p>Hi there! I'm a <strong><u>integrated Ph.D. student</u></strong> in <strong><u>Nursing Informatics</u></strong> at <strong><u>Seoul National University College of Nursing</u></strong>. With a background in the Neonatal Intensive Care Unit (NICU), I’m passionate about bridging clinical nursing with data, technology, and AI to improve healthcare practice. I’m currently working full-time as a clinical research coordinator in the Department of Pediatric Nephrology at Seoul National University Hospital. This blog is a space where I share insights on nursing informatics, clinical experiences, and my journey as a researcher. I hope to connect with others who are interested in the future of nursing and healthcare innovation. Thanks for visiting!</p>
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
@@ -36,7 +35,7 @@ resume_looking_for_work:        "yes"
 # comment out to hide
 resume_section_experience:      true
 resume_section_education:       true
-resume_section_projects:        true
+resume_section_projects:        false
 resume_section_certificates:          true
 resume_section_skills:          true
 resume_section_recognition:     false
@@ -54,7 +53,7 @@ resume_social_links:
   resume_linkedin_url:          "https://www.linkedin.com/in/jieunseong"
   # resume_instagram_url:         "insert your Instagram URL here"
   # resume_website_url:           "http://joelglovier.com"
-  resume_resume_url:            "resume_250829.pdf"
+  resume_resume_url:            "CV_260410.pdf"
 resume_print_social_links:      true
 
 # Design settings
